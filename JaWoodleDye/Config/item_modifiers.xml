@@ -1,0 +1,52 @@
+<configs>
+<append xpath="/item_modifiers">
+
+
+	<item_modifier name="JaWoodlePurple" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" cosmetic_install_chance=".05">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="CustomIcon" value="modDyeWhite"/>
+		<property name="CustomIconTint" value="64,0,115"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		
+		<item_property_overrides name="*">
+			<property name="TintColor" value="64,0,115"/>
+			<property name="CustomIconTint" value="64,0,115"/>
+			<property name="UMA.Overlay0Tint" value="64,0,115"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="tankTop">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="64,0,115"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="tshirt">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="64,0,115"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="tshirtZUWhite">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="64,0,115"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="jacketLetter">
+			<property name="UMA.Overlay0Tint" value="154,31,42,255"/> <!-- stays red -->
+			<property name="UMA.Overlay1Tint" value="64,0,115"/>
+			<property name="UMA.Overlay2Tint" value="64,0,115"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="denimShortsPants">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="64,0,115"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="flannelShirt">
+			<property name="UMA.Overlay0Tint" value="64,0,115"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	</append>
+	</configs>
